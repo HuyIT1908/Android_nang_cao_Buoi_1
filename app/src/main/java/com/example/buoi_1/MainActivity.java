@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         intent = new Intent(this, MyService.class);
-
+        String test = "day la du lieu moi";
     }
 
     public void btn_start(View view){
